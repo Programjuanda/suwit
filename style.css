@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  flex-direction: column;
+  text-align: center;
+}
+.container {
+  width: 300px;
+  height: 300px;
+  background: rgb(154, 176, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.komputer i {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+  background: darkblue;
+  margin-bottom: 30px;
+  margin-top: -60px;
+  border: solid 5px #ddd;
+}
+.hasil {
+  width: 45%;
+  height: 40px;
+  background: white;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.hasil p {
+  display: inline-block;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 5px;
+}
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.player button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: darkblue;
+  outline: none;
+  border: solid 5px #eee;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.player button:hover {
+  border: solid 5px rgb(35, 230, 35);
+}
+.player button i {
+  display: inline-block;
+  color: white;
+  font-size: 40px;
+  padding: 5px;
+}
